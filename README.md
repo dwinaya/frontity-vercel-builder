@@ -1,50 +1,20 @@
-# Frontity - Now builder
+# Frontity - Now builder FORKED from [Frontity now-builder](https://github.com/frontity/now-builder)
 
-Use this builder to deploy a [Frontity](https://frontity.org) project in the Zeit Now hosting.
+This builder attempts to stay updated with vercel, so it will work with SWR and caching.
 
 ## Before deploying
 
-1. Create this `now.json` file in your project and change the site url:
+1. Create this `vercel.json` file in your project and change the site url:
 
 ```json
 {
-  "alias": "www.your-site.com",
-  "version": 2,
   "builds": [
     {
       "src": "package.json",
-      "use": "@frontity/now"
+      "use": "@frederiknordahl/now"
     }
   ]
 }
 ```
 
-2. Create an account on Now. You can [signup here](https://zeit.co/signup).
-
-3. Log in the terminal:
-
-```bash
-> npx now login
-```
-
-## Deploy a test site
-
-Deploy Frontity using this command:
-
-```bash
-> npx now
-```
-
-That will give you a unique URL for that deploy. Check that everything is ok.
-
-## Deploy a production site
-
-You need to [add a CNAME](https://zeit.co/docs/v2/custom-domains/#option-2:-using-external-nameservers) of `www.your-site.com` to `alias.zeit.co` in your domain DNS settings.
-
-Then, deploy Frontity using this command:
-
-```bash
-> npx now --target production
-```
-
-That will createa a deploy and assign it to your real site url.
+2. Follow the rest of the guide on [Deploy Frontity using Vercel](https://gitbook-docs.frontity.org/deployment/deploy-using-vercel)
