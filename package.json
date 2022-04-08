@@ -1,23 +1,23 @@
 {
   "name": "@frederiknordahl/now",
-  "version": "1.2.0",
-  "description": "A Frontity builder for the Now hosting (Zeit)",
+  "version": "1.2.1",
+  "description": "An updated Frontity builder for vercel hosting - forked from frontity/now-builder",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frontity/now-builder.git"
+    "url": "git+https://github.com/frederiknordahl/now-builder.git"
   },
   "main": "./dist/index.js",
   "keywords": [
     "frontity",
-    "now",
+    "vercel",
     "builder"
   ],
-  "author": "Luis Herranz",
+  "author": "Frederik Nordahl",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/frontity/now-builder/issues"
+    "url": "https://github.com/frederikNordahl/now-builder/issues"
   },
-  "homepage": "https://github.com/frontity/now-builder#readme",
+  "homepage": "https://github.com/frederikNordahl/now-builder#readme",
   "files": [
     "dist"
   ],
