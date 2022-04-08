@@ -122,7 +122,6 @@ export async function build({
       { src: `${prefix}/favicon.ico`, dest: "favicon.ico" },
       {
         src: `${prefix}($|/.*)`,
-        headers: { "cache-control": "s-maxage=1,stale-while-revalidate" },
         dest: `/server.js`,
       },
     ];
