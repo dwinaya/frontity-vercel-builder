@@ -13,7 +13,7 @@ import {
   Config,
   FileFsRef,
   Lambda,
-} from "@vercel/build-utils";
+} from "@now/build-utils";
 
 interface PackageJson {
   scripts?: {
