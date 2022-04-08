@@ -166,7 +166,7 @@ export async function build({
 
     const launcherFiles = {
       "now__bridge.js": new FileFsRef({
-        fsPath: require("@vercel/node-bridge"),
+        fsPath: require("@now/node-bridge"),
       }),
       "now__launcher.js": new FileFsRef({
         fsPath: path.join(__dirname, "launcher.js"),
