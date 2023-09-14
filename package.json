@@ -1,6 +1,6 @@
 {
   "name": "@frederiknordahl/now",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "An updated Frontity builder for vercel hosting - forked from frontity/now-builder",
   "repository": {
     "type": "git",
@@ -28,19 +28,19 @@
     "prepublishOnly": "tsc"
   },
   "peerDependencies": {
-    "@now/build-utils": "^0.9.4"
+    "@vercel/build-utils": "7.2.0"
   },
   "dependencies": {
-    "@now/node-bridge": "^1.2.3"
+    "@vercel/node-bridge": "4.0.1"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.2.6",
     "@changesets/cli": "^2.7.2",
-    "@now/build-utils": "^0.9.4",
+    "@vercel/build-utils": "7.2.0",
     "@types/glob": "^7.1.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
-    "eslint": "^6.1.0",
+    "eslint": "^5.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.14.0",
     "typescript": "3.5.2"

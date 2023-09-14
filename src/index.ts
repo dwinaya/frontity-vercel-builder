@@ -13,7 +13,7 @@ import {
   Config,
   FileFsRef,
   Lambda,
-} from "@now/build-utils";
+} from "@vercel/build-utils";
 
 interface PackageJson {
   scripts?: {
@@ -166,7 +166,7 @@ export async function build({
 
     const launcherFiles = {
       "now__bridge.js": new FileFsRef({
-        fsPath: require("@now/node-bridge"),
+        fsPath: require("@vercel/node-bridge"),
       }),
       "now__launcher.js": new FileFsRef({
         fsPath: path.join(__dirname, "launcher.js"),
@@ -174,7 +174,7 @@ export async function build({
     };
 
     const lambda = await createLambda({
-      runtime: "nodejs16.x",
+      runtime: "nodejs18.x",
       handler: "now__launcher.launcher",
       files: {
         ...launcherFiles,
