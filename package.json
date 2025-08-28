@@ -1,6 +1,6 @@
 {
   "name": "@dwinaya/frontity-vercel-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An updated Frontity builder for vercel hosting - forked from @frederiknordahl/now",
   "repository": {
     "type": "git",

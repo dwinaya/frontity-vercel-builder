@@ -1,6 +1,6 @@
 # Frontity - Now builder FORKED from [Frontity now-builder](https://github.com/frederikNordahl/now-builder)
 
-This builder attempts to stay updated with vercel and NodeJS version 22, so it will work with SWR and caching.
+This builder attempts to stay updated with Vercel and NodeJS version 22, so it will work with SWR and caching.
 
 ## Before deploying
 
