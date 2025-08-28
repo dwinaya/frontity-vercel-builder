@@ -1,10 +1,10 @@
 {
-  "name": "@frederiknordahl/now",
-  "version": "1.2.5",
-  "description": "An updated Frontity builder for vercel hosting - forked from frontity/now-builder",
+  "name": "@dwinaya/frontity-vercel-builder",
+  "version": "1.0.0",
+  "description": "An updated Frontity builder for vercel hosting - forked from @frederiknordahl/now",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frederiknordahl/now-builder.git"
+    "url": "git+https://github.com/dwinaya/frontity-vercel-builder.git"
   },
   "main": "./dist/index.js",
   "keywords": [
@@ -12,12 +12,12 @@
     "vercel",
     "builder"
   ],
-  "author": "Frederik Nordahl",
+  "author": "Dwinaya",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/frederikNordahl/now-builder/issues"
+    "url": "https://github.com/dwinaya/frontity-vercel-builder/issues"
   },
-  "homepage": "https://github.com/frederikNordahl/now-builder#readme",
+  "homepage": "https://github.com/dwinaya/frontity-vercel-builder#readme",
   "files": [
     "dist"
   ],
