@@ -1,4 +1,4 @@
-# Frontity - Now builder FORKED from [Frontity now-builder]([https://github.com/frontity/now-builder](https://github.com/frederikNordahl/now-builder))
+# Frontity - Now builder FORKED from [Frontity now-builder](https://github.com/frederikNordahl/now-builder)
 
 This builder attempts to stay updated with vercel, so it will work with SWR and caching.
 
